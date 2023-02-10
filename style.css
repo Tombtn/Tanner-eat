@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: manrope, roboto;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+
+}
+
+.photo{
+    display: flex;
+    height: 30vh;
+    background-image: url(img/lasagne.png);
+    background-size: contain;
+    padding: 0 5% 0 5%;
+    margin-top: 15%;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.croix{
+    margin-top: 20px;
+}
+
+.users{
+    background-color: rgba(0, 0, 0, 0.483);
+    padding: 1px 1px 1px 1px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 8px;
+    height: auto;
+    width: 40%;
+    margin: 50px 0 20px 0;
+}
+
+.Informations{
+    padding: 0 5% 0 5%;
+
+}
+
+.titre{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.prix{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0 0 0 0;
+}
+
+.section{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(212, 212, 212);
+    margin-bottom: 5%;
+}
+
+.info{
+    font-size: 15px;
+    margin: 0 0 0 0;
+}
+
+.livraison{
+    color: #FF675F;
+    font-size: 15px;
+}
+
+.nombre{
+    background-color:#ff675f10;
+    padding: 1px 1px 1px 1px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:#FF675F;
+    font-size: 12px;
+    height: auto;
+    width: 40%;
+}
+
+.Ajouter{
+    background-color: #FF675F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+    height: 150px;
+    margin-top: 10%;
+}
