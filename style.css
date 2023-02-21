@@ -47,12 +47,29 @@ body{
 .titre{
     font-size: 25px;
     font-weight: 600;
+    margin-bottom: 0;
 }
 
 .prix{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
-    margin-top: 0 0 0 0;
+    margin: 0 0 0 0;
+    display: flex;
+    align-items: end;
+    color: rgb(173, 173, 173);
+}
+
+.prix2{
+    color: #FF675F;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.panier2{
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 5px;
 }
 
 .section{
@@ -85,7 +102,7 @@ body{
     width: 40%;
 }
 
-.Ajouter{
+.ajouter{
     background-color: #FF675F;
     display: flex;
     align-items: center;
@@ -94,4 +111,5 @@ body{
     font-size: 10px;
     height: 150px;
     margin-top: 10%;
+
 }
